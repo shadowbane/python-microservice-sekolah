@@ -15,7 +15,7 @@ db_database = os.getenv('DB_DATABASE', 'microservice_sekolah')
 SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://" \
                           + db_username \
                           + ":" \
-                          + db_username \
+                          + db_password \
                           + "@" \
                           + db_host \
                           + ":" \
